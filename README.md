@@ -1,7 +1,5 @@
 # Yeast selective mitoribosome profiling analysis 
 
-DOI:
-
 This repository includes the custom scripts, some downloaded programs, and many sequence files needed to analyze yeast mitoribosome profiling data and make publication-quality plots. Note the reference genome will have to be downloaded separately. The commands as written are to be used with the SLURM job scheduler and many paths throughout will need to be updated for your directory structure. Additionally several packages/modules need to be loaded or in your path; e.g. python, samtools, bedtools, cutadapt, R, bowtie, bamtools, fastqc, java, star, picard .
 
 Listed below is an overview of the functions provided. Examples for the commands to be used to accomplish each step are provided in 'yMitoRP_pipelineCommands_README.txt' Be sure to open this in a scripting text editor.
@@ -26,6 +24,8 @@ Fastq files are deposited in the GEO database under the accession number GSEXXXX
 To install:  
 Download zipped repository and unzip into directory with *fastq.gz files.
 Install R packages as needed, listed in each R script.
+To run:
+Open yMitoRP_pipelineCommands_README.txt in a scripting text editor and follow examples, adjusting each script (paths, etc) as necessary.
 
 
 
