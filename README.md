@@ -23,7 +23,7 @@ Fastq files are deposited in the GEO database under the accession number GSEXXXX
 
 To install:  
 Download zipped repository and unzip into directory with *fastq.gz files.
-Install R packages as needed, listed in each R script.
+Install R packages as needed, listed in each R script.  
 To run:
 Open yMitoRP_pipelineCommands_README.txt in a scripting text editor and follow examples, adjusting each script (paths, etc) as necessary.
 
