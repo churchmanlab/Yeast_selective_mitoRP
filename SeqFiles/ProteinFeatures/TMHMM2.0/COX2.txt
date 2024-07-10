@@ -1,0 +1,11 @@
+# QHB12455.1 Length: 251
+# QHB12455.1 Number of predicted TMHs:  2
+# QHB12455.1 Exp number of AAs in TMHs: 44.04793
+# QHB12455.1 Exp number, first 60 AAs:  17.88617
+# QHB12455.1 Total prob of N-in:        0.16719
+# QHB12455.1 POSSIBLE N-term signal sequence
+QHB12455.1	TMHMM2.0	outside	     1    42
+QHB12455.1	TMHMM2.0	TMhelix	    43    62
+QHB12455.1	TMHMM2.0	inside	    63    82
+QHB12455.1	TMHMM2.0	TMhelix	    83   105
+QHB12455.1	TMHMM2.0	outside	   106   251

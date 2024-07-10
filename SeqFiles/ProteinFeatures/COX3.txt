@@ -1,0 +1,21 @@
+# KZV07228.1 Length: 269
+# KZV07228.1 Number of predicted TMHs:  7
+# KZV07228.1 Exp number of AAs in TMHs: 153.8596
+# KZV07228.1 Exp number, first 60 AAs:  36.25302
+# KZV07228.1 Total prob of N-in:        0.98934
+# KZV07228.1 POSSIBLE N-term signal sequence
+KZV07228.1	TMHMM2.0	inside	     1    20
+KZV07228.1	TMHMM2.0	TMhelix	    21    40
+KZV07228.1	TMHMM2.0	outside	    41    43
+KZV07228.1	TMHMM2.0	TMhelix	    44    66
+KZV07228.1	TMHMM2.0	inside	    67    86
+KZV07228.1	TMHMM2.0	TMhelix	    87   109
+KZV07228.1	TMHMM2.0	outside	   110   137
+KZV07228.1	TMHMM2.0	TMhelix	   138   160
+KZV07228.1	TMHMM2.0	inside	   161   166
+KZV07228.1	TMHMM2.0	TMhelix	   167   189
+KZV07228.1	TMHMM2.0	outside	   190   203
+KZV07228.1	TMHMM2.0	TMhelix	   204   226
+KZV07228.1	TMHMM2.0	inside	   227   245
+KZV07228.1	TMHMM2.0	TMhelix	   246   268
+KZV07228.1	TMHMM2.0	outside	   269   269

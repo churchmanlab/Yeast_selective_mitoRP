@@ -1,0 +1,11 @@
+# AAA67535.1 Length: 76
+# AAA67535.1 Number of predicted TMHs:  2
+# AAA67535.1 Exp number of AAs in TMHs: 46.33058
+# AAA67535.1 Exp number, first 60 AAs:  33.00617
+# AAA67535.1 Total prob of N-in:        0.69656
+# AAA67535.1 POSSIBLE N-term signal sequence
+AAA67535.1	TMHMM2.0	inside	     1    12
+AAA67535.1	TMHMM2.0	TMhelix	    13    35
+AAA67535.1	TMHMM2.0	outside	    36    49
+AAA67535.1	TMHMM2.0	TMhelix	    50    72
+AAA67535.1	TMHMM2.0	inside	    73    76

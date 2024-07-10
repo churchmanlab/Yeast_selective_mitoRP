@@ -1,0 +1,9 @@
+# YP_009144707.1 Length: 48
+# YP_009144707.1 Number of predicted TMHs:  1
+# YP_009144707.1 Exp number of AAs in TMHs: 22.65466
+# YP_009144707.1 Exp number, first 60 AAs:  22.65466
+# YP_009144707.1 Total prob of N-in:        0.54903
+# YP_009144707.1 POSSIBLE N-term signal sequence
+YP_009144707.1	TMHMM2.0	inside	     1    12
+YP_009144707.1	TMHMM2.0	TMhelix	    13    35
+YP_009144707.1	TMHMM2.0	outside	    36    48

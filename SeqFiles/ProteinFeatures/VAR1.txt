@@ -1,0 +1,7 @@
+# AVD96828.1 Length: 404
+# AVD96828.1 Number of predicted TMHs:  0
+# AVD96828.1 Exp number of AAs in TMHs: 0.01547
+# AVD96828.1 Exp number, first 60 AAs:  0.00265
+# AVD96828.1 Total prob of N-in:        0.00316
+# 
+AVD96828.1	TMHMM2.0	inside	     1   404
