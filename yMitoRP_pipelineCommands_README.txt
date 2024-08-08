@@ -118,10 +118,13 @@ Exp="SelRP"
 Libs="Mrps17_1 Mrps17_2 Aep2_1 Aep2_2"
 
 sizerange='37to41' 
+sizes="37 38 39 40 41"
+offsets="15 16 17 17 17"
+
 script="AsiteAndCountFrame.sh"
 for lib in $Libs
 do
-sbatch /n/groups/churchman/mc348/yMitoRP/Scripts/$script $lib $Exp $sizerange
+sbatch /n/groups/churchman/mc348/yMitoRP/Scripts/$script $lib $Exp $sizerange "$sizes" "$offsets"
 done
 
 
