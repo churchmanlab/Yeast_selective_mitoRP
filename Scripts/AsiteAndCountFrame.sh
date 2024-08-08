@@ -37,6 +37,8 @@ module load bedtools/2.27.1
 LibName=$1
 Exp=$2 # 
 sizeRange=$3 # e.g. 37to41 
+sizes=$4
+offsets=$5
 
 Ascript="./Scripts/SAM2yMitoFPBEDplus_MTC.py"
 
@@ -46,7 +48,7 @@ echo "Making A site bed"
 # bam to sam
 samtools view -h -o ${LibName}_Aligned.Mito_mRNA.noDups_for${sizeRange}.sam  ${LibName}_Aligned.Mito_mRNA.noDups.bam 
 # ## Custom script to make bed file
-python $Ascript -i ${LibName}_Aligned.Mito_mRNA.noDups_for${sizeRange}.sam -s ${sizeRange}
+python $Ascript -i ${LibName}_Aligned.Mito_mRNA.noDups_for${sizeRange}.sam -s "${sizes}" -o "${offsets}
 # 
 # # # convert to bedGraph
 echo "Converting to bedGraph"
