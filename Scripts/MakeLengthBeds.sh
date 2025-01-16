@@ -16,6 +16,10 @@
 ###					sbatch MakeLengthBeds.sh
 ###					LibName
 
+
+module load python/3.7.4
+
+
 LibName=$1
 
 # BAM to SAM
